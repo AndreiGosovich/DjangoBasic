@@ -1,8 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404
 from django.views.generic import TemplateView
 
-import json
-from django.shortcuts import redirect
+from mainapp import models as mainapp_models
 
 class MainPageView(TemplateView):
     template_name = "mainapp/index.html"
@@ -13,31 +12,50 @@ class NewsPageView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['news_title'] = 'заголовок новости'
-        context['news_text'] = 'Новость ни о чём. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, est rerum minus cum consequuntur totam dolores adipisci quaerat praesentium iusto?'
-        context['range'] = range(5)
-
-        with open('./static/News.json', 'r', encoding='utf-8') as news_file:
-            context['news_json'] = json.load(news_file)
-
-        return context
-
-class NewsPageViewPaginator(NewsPageView):
-
-    def get_context_data(self, page, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['page'] = page
-        return context
-
-
-class NewsPageViewSearch(NewsPageView):
-
-    def redirectToSearch(request, text):
-        return redirect(f'https://yandex.ru/search/?text={text}')
         
+        context["news_qs"] = mainapp_models.News.objects.all()[0:5]
+
+        return context
+
+
+class NewsPageDetailView(TemplateView):
+    template_name = "mainapp/news_detail.html"
+
+    def get_context_data(self, pk=None, **kwargs):
+        context = super().get_context_data(pk=pk, **kwargs)
+        context["news_object"] = get_object_or_404(mainapp_models.News, pk=pk)
+        return context
+
 
 class CoursesPageView(TemplateView):
     template_name = "mainapp/courses_list.html"
+
+
+class CoursesListView(TemplateView):
+    template_name = "mainapp/courses_list.html"
+
+    def get_context_data(self, **kwargs):
+        context = super(CoursesListView, self).get_context_data(**kwargs)
+        context["objects"] = mainapp_models.Courses.objects.all()[:7]
+        return context
+
+
+class CoursesDetailView(TemplateView):
+    template_name = "mainapp/courses_detail.html"
+
+    def get_context_data(self, pk=None, **kwargs):
+        context = super(CoursesDetailView, self).get_context_data(**kwargs)
+        
+        context["course_object"] = get_object_or_404(
+            mainapp_models.Courses, pk=pk
+        ) 
+        context["lessons"] = mainapp_models.Lesson.objects.filter(
+            course=context["course_object"]
+        ) 
+        context["teachers"] = mainapp_models.CourseTeachers.objects.filter(
+            course=context["course_object"]
+        ) 
+        return context
 
 
 class ContactsPageView(TemplateView):

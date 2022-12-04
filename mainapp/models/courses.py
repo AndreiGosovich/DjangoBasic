@@ -2,9 +2,13 @@ __all__ = ['Courses']
 
 from django.db import models
 
+class CoursesManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(deleted=False)
+
 
 class Courses(models.Model):
-    # objects = CoursesManager()
+    objects = CoursesManager()
 
     name = models.CharField(max_length=256, verbose_name="Name")
     description = models.TextField(

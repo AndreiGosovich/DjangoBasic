@@ -3,7 +3,14 @@ __all__ = ['Lesson']
 from django.db import models
 
 
+class LessonManager(models.Manager):
+        def get_queryset(self):
+            return super().get_queryset().filter(deleted=False)
+
+
 class Lesson(models.Model):
+    objects = LessonManager()
+
     course = models.ForeignKey('mainapp.Courses', on_delete=models.CASCADE)
     num = models.PositiveIntegerField(verbose_name="Lesson number")
     title = models.CharField(max_length=256, verbose_name="Name")

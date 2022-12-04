@@ -2,7 +2,15 @@ __all__ = ['CourseTeachers']
 
 from django.db import models
 
+
+class CourseTeachersManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(deleted=False)
+
+
 class CourseTeachers(models.Model):
+    objects = CourseTeachersManager()
+
     course = models.ManyToManyField('mainapp.Courses')
     name_first = models.CharField(max_length=128, verbose_name="Name")
     name_second = models.CharField(max_length=128, verbose_name="Surname")

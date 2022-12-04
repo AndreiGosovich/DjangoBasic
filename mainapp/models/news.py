@@ -2,8 +2,14 @@ __all__ = ['News']
 
 from django.db import models
 
+class NewsManager(models.Manager):
+        def get_queryset(self):
+            return super().get_queryset().filter(deleted=False)
+
 
 class News(models.Model):
+    objects = NewsManager()
+
     title = models.CharField(max_length=256, verbose_name="Title")
     preambule = models.CharField(max_length=1024, verbose_name="Preambule")
     body = models.TextField(blank=True, null=True, verbose_name="Body")
