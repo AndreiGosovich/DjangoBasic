@@ -3,6 +3,8 @@ from django.views.generic import TemplateView
 
 from mainapp import models as mainapp_models
 
+from django.utils.translation import gettext_lazy as _
+
 class MainPageView(TemplateView):
     template_name = "mainapp/index.html"
 
@@ -25,10 +27,6 @@ class NewsPageDetailView(TemplateView):
         context = super().get_context_data(pk=pk, **kwargs)
         context["news_object"] = get_object_or_404(mainapp_models.News, pk=pk)
         return context
-
-
-class CoursesPageView(TemplateView):
-    template_name = "mainapp/courses_list.html"
 
 
 class CoursesListView(TemplateView):
@@ -64,7 +62,3 @@ class ContactsPageView(TemplateView):
 
 class DocSitePageView(TemplateView):
     template_name = "mainapp/doc_site.html"
-
-
-class LoginPageView(TemplateView):
-    template_name = "mainapp/login.html"
