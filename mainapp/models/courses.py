@@ -2,6 +2,8 @@ __all__ = ['Courses']
 
 from django.db import models
 
+from django.utils.translation import gettext_lazy as _
+
 class CoursesManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(deleted=False)
@@ -33,3 +35,8 @@ class Courses(models.Model):
     def delete(self, *args):
         self.deleted = True
         self.save()
+    
+
+    class Meta:
+        verbose_name = _("Course")
+        verbose_name_plural = _("Courses")

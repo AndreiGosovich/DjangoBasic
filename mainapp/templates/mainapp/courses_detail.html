@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static markdownify %}
+{% load crispy_forms_tags %}
 
 {% block title %}
     {{ course_object.name }}
@@ -14,9 +15,9 @@
             <div class="row h-100">
                 <div class="col-12">
                     {% if course_object.description_as_markdown %}
-                    {{ course_object.description|markdownify }}
+                        {{ course_object.description|markdownify }}
                     {% else %}
-                    {{ course_object.description }}
+                        {{ course_object.description }}
                     {% endif %}
                 </div>
                 <div class="col-12 align-self-end">
@@ -93,6 +94,64 @@
                     </div>
                 </div>
             </div>
-        {% endfor %}
+        {% endfor %}        
     </div>
+
+    <h3>Отзывы</h3>
+
+    <div id="feedback_list">
+    {% if feedback_list %}
+    {% for item in feedback_list %}
+        {% include 'mainapp/courses/includes/feedback_cart.html' %}
+    {% endfor %}
+    {% else %}
+    <p>
+        No feedback yet. Be first!
+    </p>
+    {% endif %}
+    </div>
+
+    {% if feedback_form %}
+    <div class="card" id="cardForm">
+    <div class="card-body">
+        <h5 class="card-title">Добавить отзыв</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Вы ещё не оставляли отзыв к этому
+        курсу</h6>
+        <p class="card-text">
+        <form action="{% url 'mainapp:course_feedback' %}" method="POST"
+        id="feedbackForm">
+        {% csrf_token %}
+        {{ feedback_form|crispy }}
+        </form>
+        <button id="feedbackSubmit"
+        class="btn btn-primary btn-block">Отправить</button>
+        </p>
+    </div>
+    </div>
+    {% endif %}
 {% endblock content %}
+
+{% block js %}
+
+{% if feedback_form %}
+<script>
+  $(document).ready(function () {
+    $("#feedbackSubmit").click(function () {
+
+      $("#cardForm").hide();
+
+      var $form = $("#feedbackForm");
+      $.ajax({
+        type: "POST",
+        url: $form.attr("action"),
+        data: $form.serialize(),
+        success: function (data) {
+          $("#feedback_list").append(data.card);
+        }
+      });
+
+    });
+  });
+</script>
+{% endif %}
+{% endblock js %}
