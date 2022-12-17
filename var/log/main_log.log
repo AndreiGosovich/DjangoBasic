@@ -1041,3 +1041,897 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'c
 [2022-12-17 09:07:21,851] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 200 16143
 [2022-12-17 09:07:22,184] INFO django.server (187) "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
 [2022-12-17 09:07:33,518] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 200 16141
+[2022-12-17 10:25:13,885] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 10:25:21,894] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:25:24,423] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 26374
+[2022-12-17 10:25:29,023] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 22947
+[2022-12-17 10:25:31,787] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:25:32,110] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 26372
+[2022-12-17 10:25:44,571] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:25:44,878] INFO django.server (187) "GET /mainapp/news/?page=1 HTTP/1.1" 200 26379
+[2022-12-17 10:28:39,755] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-17 10:28:43,792] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 10:28:48,389] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:28:50,486] INFO django.server (187) "GET /mainapp/news/?page=1 HTTP/1.1" 200 22528
+[2022-12-17 10:28:52,407] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:28:52,927] INFO django.server (187) "GET /mainapp/news/?page=2 HTTP/1.1" 200 22613
+[2022-12-17 10:28:54,688] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:28:55,093] INFO django.server (187) "GET /mainapp/news/?page=3 HTTP/1.1" 200 20892
+[2022-12-17 10:28:56,339] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:28:56,754] INFO django.server (187) "GET /mainapp/news/?page=2 HTTP/1.1" 200 22613
+[2022-12-17 10:28:57,801] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:28:58,339] INFO django.server (187) "GET /mainapp/news/?page=3 HTTP/1.1" 200 20892
+[2022-12-17 10:28:59,672] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:29:00,009] INFO django.server (187) "GET /mainapp/news/?page=2 HTTP/1.1" 200 22613
+[2022-12-17 10:29:00,932] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 10:29:01,238] INFO django.server (187) "GET /mainapp/news/?page=1 HTTP/1.1" 200 22526
+[2022-12-17 12:26:45,013] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:26:53,065] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 12:26:55,313] INFO django.server (187) "GET /mainapp/news/?page=1 HTTP/1.1" 200 23930
+[2022-12-17 12:26:57,961] ERROR django.request (241) Internal Server Error: /i18n/setlang/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/views/i18n.py", line 51, in set_language
+    next_trans = translate_url(next_url, lang_code)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/urls/base.py", line 178, in translate_url
+    with override(lang_code):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 196, in __enter__
+    activate(self.language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:26:58,240] ERROR django.server (187) "POST /i18n/setlang/ HTTP/1.1" 500 127735
+[2022-12-17 12:29:14,575] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-17 12:29:18,980] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:29:51,728] ERROR django.request (241) Internal Server Error: /i18n/setlang/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:29:51,740] ERROR django.server (187) "POST /i18n/setlang/ HTTP/1.1" 500 108547
+[2022-12-17 12:29:58,638] ERROR django.request (241) Internal Server Error: /mainapp/news/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:29:58,644] ERROR django.server (187) "GET /mainapp/news/?page=1 HTTP/1.1" 500 108204
+[2022-12-17 12:30:05,070] ERROR django.request (241) Internal Server Error: /mainapp/news/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:30:05,074] ERROR django.server (187) "GET /mainapp/news/?page=1 HTTP/1.1" 500 108204
+[2022-12-17 12:30:14,779] ERROR django.request (241) Internal Server Error: /mainapp/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:30:14,783] ERROR django.server (187) "GET /mainapp/ HTTP/1.1" 500 107519
+[2022-12-17 12:30:37,762] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:30:46,862] ERROR django.request (241) Internal Server Error: /mainapp/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:30:46,873] ERROR django.server (187) "GET /mainapp/ HTTP/1.1" 500 107656
+[2022-12-17 12:31:42,350] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-17 12:31:46,169] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:31:57,268] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 24352
+[2022-12-17 12:32:05,249] INFO mainapp.views (68) Страница: Список курсов
+[2022-12-17 12:32:05,634] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 21353
+[2022-12-17 12:32:06,731] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 12:32:07,526] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 23922
+[2022-12-17 12:32:08,889] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 24753
+[2022-12-17 12:32:15,589] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-17 12:32:19,694] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:32:26,244] ERROR django.request (241) Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:32:26,252] ERROR django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 500 107914
+[2022-12-17 12:33:22,013] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-17 12:33:26,029] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:33:45,330] ERROR django.request (241) Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:33:45,340] ERROR django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 500 107914
+[2022-12-17 12:33:47,501] ERROR django.request (241) Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:33:47,519] ERROR django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 500 107914
+[2022-12-17 12:33:56,887] ERROR django.request (241) Internal Server Error: /mainapp/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:33:56,901] ERROR django.server (187) "GET /mainapp/ HTTP/1.1" 500 107519
+[2022-12-17 12:48:08,255] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:48:22,089] ERROR django.request (241) Internal Server Error: /mainapp/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/middleware/locale.py", line 35, in process_request
+    translation.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/__init__.py", line 181, in activate
+    return _trans.activate(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 298, in activate
+    _active.value = translation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 287, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 166, in __init__
+    self._add_local_translations()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 226, in _add_local_translations
+    translation = self._new_gnu_trans(localedir)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/utils/translation/trans_real.py", line 193, in _new_gnu_trans
+    return gettext_module.translation(
+  File "/usr/lib/python3.8/gettext.py", line 613, in translation
+    t = _translations.setdefault(key, class_(fp))
+  File "/usr/lib/python3.8/gettext.py", line 261, in __init__
+    self._parse(fp)
+  File "/usr/lib/python3.8/gettext.py", line 385, in _parse
+    magic = unpack('<I', buf[:4])[0]
+struct.error: unpack requires a buffer of 4 bytes
+[2022-12-17 12:48:22,099] ERROR django.server (187) "GET /mainapp/ HTTP/1.1" 500 107662
+[2022-12-17 12:48:53,808] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:52:07,523] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 12:52:13,004] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 25341
+[2022-12-17 12:52:18,743] INFO django.server (187) "POST /i18n/setlang/ HTTP/1.1" 302 0
+[2022-12-17 12:52:19,113] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 24349
+[2022-12-17 12:52:22,171] INFO django.server (187) "POST /i18n/setlang/ HTTP/1.1" 302 0
+[2022-12-17 12:52:22,435] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 25339
+[2022-12-17 12:52:23,808] INFO django.server (187) "POST /i18n/setlang/ HTTP/1.1" 302 0
+[2022-12-17 12:52:24,076] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 24349
+[2022-12-17 12:52:25,135] INFO django.server (187) "POST /i18n/setlang/ HTTP/1.1" 302 0
+[2022-12-17 12:52:25,512] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 25339
+[2022-12-17 13:32:21,323] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 13:32:43,211] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 25341
+[2022-12-17 13:51:05,389] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:06,274] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:07,153] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:08,162] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:09,286] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:10,304] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:11,347] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:11,359] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 13:51:12,429] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:13,350] INFO authapp.views (25) Страница: Вход
+[2022-12-17 13:51:14,773] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:03:28,911] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-17 14:03:33,481] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 14:03:36,986] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-17 14:08:51,409] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:52,341] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:53,220] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:54,146] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:55,096] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:55,973] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:56,837] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:56,846] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 14:08:57,770] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:58,703] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:08:59,568] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:10:35,583] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 14:10:38,746] INFO mainapp.views (68) Страница: Список курсов
+[2022-12-17 14:10:39,893] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 22346
+[2022-12-17 14:10:41,726] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:10:43,725] INFO django.server (187) "GET /mainapp/courses/4/ HTTP/1.1" 200 36255
+[2022-12-17 14:10:45,973] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:10:47,210] INFO django.server (187) "GET /mainapp/courses/5/ HTTP/1.1" 200 36585
+[2022-12-17 14:11:03,798] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:04,673] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:05,699] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:06,767] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:07,790] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:08,818] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:09,913] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:09,925] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 14:11:11,221] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:12,458] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:11:13,447] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:13:05,016] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:13:05,105] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:13:05,235] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:13:05,310] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:15:29,951] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:15:30,120] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:16:05,811] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f73b3a8e940>
+[2022-12-17 14:16:41,757] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 14:16:52,168] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7fcadc0ee260>
+[2022-12-17 14:17:11,964] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:17:12,193] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:18:19,553] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:18:19,736] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:19:28,637] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f008062f8f0>
+[2022-12-17 14:20:47,005] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f53b9adca80>
+[2022-12-17 14:21:23,066] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:21:27,035] INFO django.server (187) "GET /mainapp/courses/2/ HTTP/1.1" 200 35750
+[2022-12-17 14:22:01,215] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f1781a44df0>
+[2022-12-17 14:34:39,588] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f2ed39b2990>
+[2022-12-17 14:35:01,690] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:02,703] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:03,643] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:04,602] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:05,868] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:06,863] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:07,808] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:07,830] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 14:35:08,796] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:09,875] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:35:10,867] INFO authapp.views (25) Страница: Вход
+[2022-12-17 14:36:19,793] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f4ddc3ebd00>
+[2022-12-17 14:36:57,937] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:36:58,404] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:38:38,011] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:38:38,709] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:39:07,623] WARNING django.request (241) Not Found: /<built-in method lower of str object at 0x7fc9e76be490>
+[2022-12-17 14:41:55,906] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:41:56,132] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:44:37,613] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:44:37,842] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:45:04,931] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f954daf0bc0>
+[2022-12-17 14:46:12,056] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 14:46:14,987] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:46:18,274] INFO django.server (187) "GET /mainapp/courses/2/ HTTP/1.1" 200 35750
+[2022-12-17 14:46:32,093] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7fd00d0d0120>
+[2022-12-17 14:47:01,821] INFO mainapp.views (68) Страница: Список курсов
+[2022-12-17 14:47:02,210] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 22343
+[2022-12-17 14:47:07,019] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:47:08,458] INFO django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 200 36686
+[2022-12-17 14:47:34,844] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7fba67fb8e90>
+[2022-12-17 14:48:17,318] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f6714141e90>
+[2022-12-17 14:48:31,766] INFO mainapp.views (68) Страница: Список курсов
+[2022-12-17 14:48:32,086] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 22343
+[2022-12-17 14:48:34,951] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:48:35,626] INFO django.server (187) "GET /mainapp/courses/2/ HTTP/1.1" 200 35747
+[2022-12-17 14:48:45,231] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7fd0396ec170>
+[2022-12-17 14:49:33,192] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:49:33,627] INFO django.server (187) "GET /mainapp/courses/2/ HTTP/1.1" 200 35743
+[2022-12-17 14:49:51,848] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7fdcfbb47080>
+[2022-12-17 14:51:36,588] WARNING django.request (241) Not Found: /<method-wrapper '__str__' of str object at 0x7f1de2b21bc0>
+[2022-12-17 14:55:32,270] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:55:32,489] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:57:55,206] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 14:57:56,092] ERROR django.request (241) Internal Server Error: /mainapp/courses/2/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+TypeError: sequence item 13: expected str instance, QuerySet found
+[2022-12-17 14:59:53,754] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 15:03:10,814] INFO mainapp.tasks (14) Send message: '{'user_id': 1, 'message': 'test_message_text'}'
+[2022-12-17 15:28:41,661] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:28:56,709] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:31:18,765] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:31:28,879] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:32:59,048] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:33:01,106] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:33:02,416] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 15:33:15,116] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:33:17,050] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:34:19,498] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:34:21,380] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:35:10,477] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:35:12,838] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:39:33,447] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:39:35,333] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:40:52,430] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:40:54,219] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:41:56,269] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:41:57,876] INFO authapp.views (25) Страница: Вход
+[2022-12-17 15:42:45,693] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 15:42:47,512] INFO authapp.views (25) Страница: Вход

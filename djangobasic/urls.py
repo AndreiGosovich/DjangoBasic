@@ -24,6 +24,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("i18n/", include("django.conf.urls.i18n")),
     path("", RedirectView.as_view(url="mainapp/")),
     path("social_auth/", include("social_django.urls", namespace="social")),
     path("mainapp/", include("mainapp.urls", namespace='mainapp')),
