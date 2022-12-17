@@ -15,11 +15,14 @@ from django.contrib.auth import get_user_model
 from authapp.forms.user_creation_form import CustomUserCreationForm
 from authapp.forms.user_change_form import CustomUserChangeForm
 
+import logging
+logger = logging.getLogger(__name__)
 
 
 class CustomLoginView(LoginView):
 
     def form_valid(self, form):
+        logger.info("Страница: Вход")
         ret = super().form_valid(form)
         message = ("Login success!<br>Hi, %(username)s") % {
                 "username": self.request.user.get_full_name()
@@ -46,9 +49,9 @@ class CustomLogoutView(LogoutView):
 
 
 class RegisterView(CreateView):
-	model = get_user_model()
-	form_class = CustomUserCreationForm
-	success_url = reverse_lazy("mainapp:main_page")
+    model = get_user_model()
+    form_class = CustomUserCreationForm
+    success_url = reverse_lazy("mainapp:main_page")
 
 
 
@@ -57,7 +60,8 @@ class ProfileEditView(UserPassesTestMixin, UpdateView):
     form_class = CustomUserChangeForm
 
     def test_func(self):
-
+        logger.info("Страница: Редактирование профиля")
         return True if self.request.user.pk == self.kwargs.get("pk") else False
+
     def get_success_url(self):
         return reverse_lazy("authapp:profile_edit", args=[self.request.user.pk])

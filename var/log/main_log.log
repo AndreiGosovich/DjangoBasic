@@ -1,0 +1,1043 @@
+[2022-12-14 17:48:46,843] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 17:48:54,014] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16037
+[2022-12-14 17:48:54,874] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 17:48:55,002] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 17:48:55,849] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 9545
+[2022-12-14 17:48:56,618] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 17:48:57,030] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 17:48:58,906] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 12107
+[2022-12-14 17:48:59,603] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 17:49:00,149] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 17:49:09,296] INFO django.server (187) "GET /authapp/logout/ HTTP/1.1" 302 0
+[2022-12-14 17:49:09,351] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12668
+[2022-12-14 17:49:10,212] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 17:49:10,345] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 17:49:11,527] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 3132
+[2022-12-14 17:49:12,119] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 17:49:12,169] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 17:49:16,614] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 302 0
+[2022-12-14 17:49:16,826] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 13888
+[2022-12-14 17:49:17,539] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 17:49:17,814] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 17:49:19,997] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 9428
+[2022-12-14 17:50:05,586] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 17:50:08,428] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 9633
+[2022-12-14 17:50:58,518] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 17:51:02,312] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 17:51:05,984] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12888
+[2022-12-14 17:51:08,588] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 17:51:11,117] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 10197
+[2022-12-14 17:52:46,001] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 17:52:49,438] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 17:52:59,529] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 17:53:02,930] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 17:53:08,797] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 10828
+[2022-12-14 17:53:12,061] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 12436
+[2022-12-14 17:53:14,071] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12888
+[2022-12-14 17:53:16,706] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 17:53:20,245] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 11235
+[2022-12-14 17:56:11,233] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 17:56:15,113] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 17:57:08,543] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12888
+[2022-12-14 17:57:09,996] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 17:57:12,219] INFO django.server (187) "GET /mainapp/news/1/detail HTTP/1.1" 200 8137
+[2022-12-14 17:57:13,987] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 17:57:16,218] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 12009
+[2022-12-14 17:58:43,273] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 17:58:48,838] INFO django.server (187) "GET /mainapp/news/1/detail HTTP/1.1" 200 8137
+[2022-12-14 17:58:56,720] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 12323
+[2022-12-14 17:59:39,902] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 9874
+[2022-12-14 17:59:42,078] INFO django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 200 23259
+[2022-12-14 17:59:42,227] INFO django.server (187) "GET /static/img/no_image.svg HTTP/1.1" 304 0
+[2022-12-14 17:59:44,848] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 12744
+[2022-12-14 18:04:19,079] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:04:19,097] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:04:33,060] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 18:04:33,896] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:04:33,913] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:04:36,985] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 12436
+[2022-12-14 18:04:37,827] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:04:38,472] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:04:46,480] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 13763
+[2022-12-14 18:05:07,663] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 13868
+[2022-12-14 18:05:20,722] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 18:05:21,381] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:05:21,452] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:05:22,710] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14310
+[2022-12-14 18:05:27,694] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14415
+[2022-12-14 18:05:29,498] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14520
+[2022-12-14 18:05:30,923] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14625
+[2022-12-14 18:05:32,801] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14730
+[2022-12-14 18:05:34,170] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14835
+[2022-12-14 18:05:35,770] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 14940
+[2022-12-14 18:06:23,821] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 18:06:28,315] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:06:35,377] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15308
+[2022-12-14 18:06:41,473] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15413
+[2022-12-14 18:06:43,603] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15518
+[2022-12-14 18:06:44,802] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15623
+[2022-12-14 18:06:46,033] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15728
+[2022-12-14 18:06:49,275] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15833
+[2022-12-14 18:06:56,464] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 15938
+[2022-12-14 18:08:45,777] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 18:08:49,128] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:10:36,575] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-14 18:10:39,978] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:10:40,088] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:10:40,090] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:10:40,093] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:10:40,095] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:10:40,097] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:10:40,098] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:10:44,597] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 17071
+[2022-12-14 18:10:55,128] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 17176
+[2022-12-14 18:10:56,620] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 17281
+[2022-12-14 18:11:02,461] INFO django.server (187) "GET /mainapp/news/1/detail HTTP/1.1" 200 8137
+[2022-12-14 18:11:03,306] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:11:03,421] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:11:04,169] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 17730
+[2022-12-14 18:11:06,185] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 17835
+[2022-12-14 18:11:07,888] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 17940
+[2022-12-14 18:11:10,676] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 18:11:11,263] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:11:11,277] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:11:12,000] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 18:11:12,794] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:11:12,827] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:11:15,470] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 18719
+[2022-12-14 18:11:17,717] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 18824
+[2022-12-14 18:11:35,244] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 18929
+[2022-12-14 18:11:40,799] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 19034
+[2022-12-14 18:11:45,086] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 12436
+[2022-12-14 18:11:46,041] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:11:46,114] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:11:46,903] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12888
+[2022-12-14 18:11:47,531] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:11:47,782] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:11:50,391] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 19812
+[2022-12-14 18:12:21,447] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:12:21,564] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:12:21,570] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:12:21,572] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:12:21,573] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:12:21,576] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:12:21,577] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:12:28,214] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 20517
+[2022-12-14 18:12:38,818] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 12436
+[2022-12-14 18:12:39,771] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:12:39,980] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:12:41,514] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 20963
+[2022-12-14 18:13:04,964] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:13:04,970] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84779
+[2022-12-14 18:17:35,298] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/authapp/views.py changed, reloading.
+[2022-12-14 18:17:38,640] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:17:38,770] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:17:38,772] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:17:38,776] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:17:38,780] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:17:38,782] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:17:38,783] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:20:48,444] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:20:48,451] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:20:50,460] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:20:50,465] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:21:01,681] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:21:01,819] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:21:01,820] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:21:01,828] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:21:01,829] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:21:01,831] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:21:01,832] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:21:07,808] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:21:07,819] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:21:19,947] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 28970
+[2022-12-14 18:21:30,551] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:21:30,562] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84779
+[2022-12-14 18:22:03,665] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:22:03,758] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:22:03,760] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:22:03,762] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:22:03,765] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:22:03,767] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:22:03,768] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:22:42,911] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:22:43,029] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:22:43,032] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:22:43,037] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:22:43,038] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:22:43,042] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:22:43,043] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:23:08,334] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:23:08,451] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:23:08,452] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:23:08,454] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:23:08,455] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:23:08,456] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:23:08,457] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:23:29,215] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:23:29,222] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:25:51,473] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/authapp/forms/user_change_form.py changed, reloading.
+[2022-12-14 18:25:55,044] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:25:55,166] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:25:55,167] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:25:55,169] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:25:55,170] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:25:55,171] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:25:55,173] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:27:37,735] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:27:37,742] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:27:40,123] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:27:40,126] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:27:43,926] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:27:43,929] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:27:58,613] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:27:58,742] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:27:58,744] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:27:58,746] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:27:58,748] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:27:58,752] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:27:58,755] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:28:04,190] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:28:04,213] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:28:34,211] ERROR django.request (241) Internal Server Error: /authapp/profile_edit/3/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authapp/customuser_form.html
+[2022-12-14 18:28:34,214] ERROR django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 500 84916
+[2022-12-14 18:33:35,999] INFO django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 200 9465
+[2022-12-14 18:33:36,336] WARNING django.request (241) Not Found: /media/avatar_default.svg
+[2022-12-14 18:33:36,350] WARNING django.server (187) "GET /media/avatar_default.svg HTTP/1.1" 404 2942
+[2022-12-14 18:33:37,168] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:33:37,300] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:34:04,954] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:34:05,070] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:34:05,071] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:34:05,077] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:34:05,078] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:34:05,081] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:34:05,082] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:34:08,022] INFO django.server (187) "GET /authapp/profile_edit/3/ HTTP/1.1" 200 9465
+[2022-12-14 18:34:08,599] WARNING django.request (241) Not Found: /media/avatar_default.svg
+[2022-12-14 18:34:08,616] WARNING django.server (187) "GET /media/avatar_default.svg HTTP/1.1" 404 2942
+[2022-12-14 18:34:09,015] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:34:09,207] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:34:13,892] INFO django.server (187) "GET /admin/ HTTP/1.1" 200 8099
+[2022-12-14 18:34:17,539] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 45499
+[2022-12-14 18:35:03,433] INFO django.server (187) "GET /authapp/logout/ HTTP/1.1" 302 0
+[2022-12-14 18:35:03,562] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12668
+[2022-12-14 18:35:04,559] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:35:04,829] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:35:06,759] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 44825
+[2022-12-14 18:35:11,248] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 3132
+[2022-12-14 18:35:11,841] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:35:11,951] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:35:14,435] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 45267
+[2022-12-14 18:35:16,702] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 45372
+[2022-12-14 18:35:18,028] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 45477
+[2022-12-14 18:35:25,919] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 302 0
+[2022-12-14 18:35:25,990] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 13888
+[2022-12-14 18:35:27,079] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:35:27,232] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:35:28,706] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 47223
+[2022-12-14 18:35:30,824] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 47328
+[2022-12-14 18:35:43,750] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:35:43,866] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:35:43,867] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:35:43,869] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:35:43,871] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:35:43,872] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:35:43,873] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:36:17,065] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-14 18:36:20,562] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:36:20,716] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:36:20,717] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:36:20,719] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:36:20,725] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:36:20,726] INFO mainapp.views (116) Страница: Документы
+[2022-12-14 18:36:20,726] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:36:20,746] INFO authapp.views (23) Страница: Вход
+[2022-12-14 18:36:20,747] INFO authapp.views (52) Страница: Регистрация
+[2022-12-14 18:36:20,748] INFO authapp.views (60) Страница: Редактирование профиля
+[2022-12-14 18:38:27,966] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 18:38:31,311] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:38:31,437] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:38:31,438] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:38:31,440] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:38:31,441] INFO mainapp.views (111) Страница: Контакты
+[2022-12-14 18:38:31,462] INFO authapp.views (23) Страница: Вход
+[2022-12-14 18:38:31,463] INFO authapp.views (52) Страница: Регистрация
+[2022-12-14 18:38:31,464] INFO authapp.views (60) Страница: Редактирование профиля
+[2022-12-14 18:39:00,022] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 18:39:03,467] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:39:03,579] INFO mainapp.views (23) Страница: Главная
+[2022-12-14 18:39:03,580] INFO mainapp.views (28) Страница: Новости
+[2022-12-14 18:39:03,583] INFO mainapp.views (61) Страница: Курсы
+[2022-12-14 18:39:03,585] INFO mainapp.views (112) Страница: Контакты
+[2022-12-14 18:39:03,601] INFO authapp.views (23) Страница: Вход
+[2022-12-14 18:39:03,602] INFO authapp.views (52) Страница: Регистрация
+[2022-12-14 18:39:03,604] INFO authapp.views (60) Страница: Редактирование профиля
+[2022-12-14 18:39:51,458] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 18:39:54,973] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:39:55,080] INFO mainapp.views (110) Страница: Контакты
+[2022-12-14 18:39:55,095] INFO authapp.views (23) Страница: Вход
+[2022-12-14 18:39:55,097] INFO authapp.views (52) Страница: Регистрация
+[2022-12-14 18:39:55,100] INFO authapp.views (60) Страница: Редактирование профиля
+[2022-12-14 18:40:49,334] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/authapp/views.py changed, reloading.
+[2022-12-14 18:40:52,586] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:40:52,712] INFO mainapp.views (110) Страница: Контакты
+[2022-12-14 18:41:30,243] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-14 18:41:33,792] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:41:42,777] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 52074
+[2022-12-14 18:41:57,442] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 52179
+[2022-12-14 18:42:22,730] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-14 18:42:26,229] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:42:35,866] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 18:42:36,500] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:42:36,541] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:42:38,929] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 52884
+[2022-12-14 18:42:50,525] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/djangobasic/settings.py changed, reloading.
+[2022-12-14 18:42:53,996] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 18:43:00,323] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:43:00,765] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 53335
+[2022-12-14 18:43:04,180] INFO mainapp.views (30) Страница: Новости
+[2022-12-14 18:43:04,268] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 16366
+[2022-12-14 18:43:04,840] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:43:04,873] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:43:06,069] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:43:06,100] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 53936
+[2022-12-14 18:43:13,206] INFO mainapp.views (62) Страница: Список курсов
+[2022-12-14 18:43:13,269] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 9874
+[2022-12-14 18:43:13,929] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:43:14,181] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:43:15,984] INFO mainapp.views (72) Страница: Курс
+[2022-12-14 18:43:16,510] INFO django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 200 23259
+[2022-12-14 18:43:17,552] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-14 18:43:17,675] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-14 18:43:20,345] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 18:43:20,386] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 54969
+[2022-12-14 19:24:52,380] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-14 19:24:56,869] INFO mainapp.views (121) Страница: Лог
+[2022-12-14 19:24:58,751] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 65322
+[2022-12-14 19:24:58,947] INFO django.server (187) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12378
+[2022-12-14 19:24:59,040] INFO django.server (187) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+[2022-12-14 19:24:59,438] INFO django.server (187) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2022-12-14 19:24:59,568] INFO django.server (187) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+[2022-12-16 15:33:24,425] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/urls.py changed, reloading.
+[2022-12-16 15:33:28,337] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-16 15:34:19,765] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/urls.py changed, reloading.
+[2022-12-16 15:34:23,569] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-16 15:53:46,501] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-16 15:53:50,124] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 07:33:48,969] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-17 07:33:53,816] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:45:38,017] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:45:40,386] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:45:41,985] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:45:43,092] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 232626
+[2022-12-17 08:45:43,499] INFO django.server (187) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-17 08:45:43,529] INFO django.server (187) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-17 08:45:43,589] INFO django.server (187) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-17 08:45:43,851] INFO django.server (187) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+[2022-12-17 08:46:47,545] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:46:48,345] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:46:48,701] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 232626
+[2022-12-17 08:47:38,212] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:47:43,401] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:47:45,049] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:47:46,065] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 232893
+[2022-12-17 08:48:49,940] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:48:55,054] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:48:56,580] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:48:57,807] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 233015
+[2022-12-17 08:49:00,198] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:49:01,130] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:49:01,395] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 233014
+[2022-12-17 08:49:24,422] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:49:29,266] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:49:30,763] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:49:32,064] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 233015
+[2022-12-17 08:49:36,361] INFO django.server (187) "GET /mainapp HTTP/1.1" 301 0
+[2022-12-17 08:49:37,307] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 22942
+[2022-12-17 08:49:40,268] INFO mainapp.views (68) Страница: Список курсов
+[2022-12-17 08:49:40,657] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 19945
+[2022-12-17 08:49:43,743] ERROR django.request (241) Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 698, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 606, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'crispy'
+[2022-12-17 08:49:43,953] ERROR django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 500 220013
+[2022-12-17 08:51:10,444] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:51:17,182] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 23348
+[2022-12-17 08:51:34,595] INFO mainapp.tasks (14) Send message: '{'user_id': '3', 'message': 'Ля ля ля'}'
+[2022-12-17 08:51:34,832] INFO django.server (187) "POST /mainapp/contacts/ HTTP/1.1" 302 0
+[2022-12-17 08:51:35,220] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 24336
+[2022-12-17 08:52:10,984] INFO mainapp.views (68) Страница: Список курсов
+[2022-12-17 08:52:11,369] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 19945
+[2022-12-17 08:52:12,650] INFO mainapp.views (36) Страница: Новости
+[2022-12-17 08:52:13,257] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 26428
+[2022-12-17 08:52:17,251] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:52:18,209] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:52:18,866] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 232877
+[2022-12-17 08:53:42,954] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:53:48,347] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:53:49,971] ERROR django.request (241) Internal Server Error: /mainapp/courses/1/
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/user/Рабочий стол/djangoBasics/DjangoBasic/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 66: 'cache', expected 'endblock'. Did you forget to register or load this tag?
+[2022-12-17 08:53:51,011] ERROR django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 500 233014
+[2022-12-17 08:55:42,357] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 08:55:44,347] INFO mainapp.views (78) Страница: Курс
+[2022-12-17 08:55:47,981] INFO django.server (187) "GET /mainapp/courses/1/ HTTP/1.1" 200 34292
+[2022-12-17 08:55:48,334] INFO django.server (187) "GET /static/img/no_image.svg HTTP/1.1" 304 0
+[2022-12-17 08:56:25,236] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 23346
+[2022-12-17 08:58:19,682] INFO mainapp.tasks (14) Send message: '{'user_id': '3', 'message': 'рдгш'}'
+[2022-12-17 08:58:19,956] INFO django.server (187) "POST /mainapp/contacts/ HTTP/1.1" 302 0
+[2022-12-17 08:58:20,458] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 24336
+[2022-12-17 08:58:43,785] INFO django.server (187) "POST /mainapp/contacts/ HTTP/1.1" 302 0
+[2022-12-17 08:58:44,073] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 24684
+[2022-12-17 08:59:16,046] INFO mainapp.views (178) Страница: Лог
+[2022-12-17 08:59:16,561] INFO django.server (187) "GET /mainapp/log_view/ HTTP/1.1" 200 117267
+[2022-12-17 09:03:28,864] INFO django.utils.autoreload (266) /home/user/Рабочий стол/djangoBasics/DjangoBasic/mainapp/views.py changed, reloading.
+[2022-12-17 09:03:33,132] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-12-17 09:03:45,044] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 23353
+[2022-12-17 09:03:52,205] INFO mainapp.tasks (14) Send message: '{'user_id': '3', 'message': 'рвапвапр'}'
+[2022-12-17 09:03:52,448] INFO django.server (187) "POST /mainapp/contacts/ HTTP/1.1" 302 0
+[2022-12-17 09:03:52,779] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 24341
+[2022-12-17 09:04:06,769] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 23351
+[2022-12-17 09:04:21,259] INFO django.server (187) "POST /mainapp/contacts/ HTTP/1.1" 302 0
+[2022-12-17 09:04:21,579] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 24689
+[2022-12-17 09:04:37,589] WARNING django.server (187) "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+[2022-12-17 09:04:37,594] INFO django.server (187) "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 192479
+[2022-12-17 09:06:35,507] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 21303
+[2022-12-17 09:06:36,288] INFO django.server (187) "GET /static/css/bootstrap.min.css HTTP/1.1" 200 167943
+[2022-12-17 09:06:36,323] INFO django.server (187) "GET /static/css/Chart.min.css HTTP/1.1" 200 521
+[2022-12-17 09:06:36,345] INFO django.server (187) "GET /static/js/Chart.min.js HTTP/1.1" 200 173077
+[2022-12-17 09:06:36,375] INFO django.server (187) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12378
+[2022-12-17 09:06:36,393] INFO django.server (187) "GET /static/css/fontawesome.all.min.css HTTP/1.1" 200 59344
+[2022-12-17 09:06:36,425] INFO django.server (187) "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[2022-12-17 09:06:36,427] INFO django.server (187) "GET /static/js/popper.min.js HTTP/1.1" 200 21233
+[2022-12-17 09:06:36,430] INFO django.server (187) "GET /static/js/bootstrap.min.js HTTP/1.1" 200 63467
+[2022-12-17 09:06:36,450] INFO django.server (187) "GET /static/img/logo.png HTTP/1.1" 200 4016
+[2022-12-17 09:06:36,453] INFO django.server (187) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+[2022-12-17 09:06:36,482] INFO django.server (187) "GET /static/js/fontawesome.all.min.js HTTP/1.1" 200 1195450
+[2022-12-17 09:06:37,090] INFO django.server (187) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+[2022-12-17 09:06:38,182] INFO django.server (187) "GET /static/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+[2022-12-17 09:06:38,718] INFO django.server (187) "GET /static/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 76764
+[2022-12-17 09:06:39,047] INFO django.server (187) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2022-12-17 09:06:39,534] WARNING django.request (241) Not Found: /favicon.ico
+[2022-12-17 09:06:39,539] WARNING django.server (187) "GET /favicon.ico HTTP/1.1" 404 12812
+[2022-12-17 09:06:43,909] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 21303
+[2022-12-17 09:06:49,276] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 13199
+[2022-12-17 09:07:01,336] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 13198
+[2022-12-17 09:07:04,321] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 13197
+[2022-12-17 09:07:21,851] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 200 16143
+[2022-12-17 09:07:22,184] INFO django.server (187) "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+[2022-12-17 09:07:33,518] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 200 16141
