@@ -1,0 +1,15 @@
+[Unit]
+Description=Gunicorn daemon for BraniacLMS
+After=network.target
+
+[Service]
+User=django
+Group=django
+WorkingDirectory=/home/django/BraniacLMS
+ExecStart=/home/django/venv/bin/gunicorn --access-logfile - --workers 3 --env
+DJANGO_SETTINGS_MODULE="config.conf_prod" --env
+DJANGO_SECRET_KEY='_h94+q_xj7dshrj58iyznl^ighi=qlffj!d2jncd87nzkucke1' --bind
+unix:/home/django/BraniacLMS/braniaclms.sock config.wsgi
+
+[Install]
+WantedBy=multi-user.target
