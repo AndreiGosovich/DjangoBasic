@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-17 14:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: authapp/forms/user_change_form.py:38
+msgid "Пожалуйста, введите корректный возраст"
+msgstr "Имя пользователя"
+
+#: authapp/models.py:24
+msgid "username"
+msgstr "Имя пользователя"
+
+#: authapp/models.py:28
+msgid "Required. 150 characters or fewer. ASCII letters and digits only."
+msgstr "Обязательное поле. До 150 символов. Только ASCII-символы и цифры"
+
+#: authapp/models.py:32
+msgid "A user with that username already exists."
+msgstr "Пользователь с таким именем уже существует"
+
+#: authapp/models.py:35
+msgid "first name"
+msgstr "Имя"
+
+#: authapp/models.py:36
+msgid "last name"
+msgstr "Фамилия"
+
+#: authapp/models.py:42
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+#: authapp/models.py:46
+msgid "A user with that email address already exists."
+msgstr "Пользователь с таким адресом электронной почты уже существует"
+
+#: authapp/models.py:50
+msgid "staff status"
+msgstr "Статус обслуживающего персонала"
+
+#: authapp/models.py:53
+msgid "Designates whether the user can log into this admin site."
+msgstr ""
+
+#: authapp/models.py:57
+msgid "active"
+msgstr "Активен"
+
+#: authapp/models.py:60
+msgid ""
+"Designates whether this user should be treated as active.             "
+"Unselect this instead of deleting accounts."
+msgstr ""
+
+#: authapp/models.py:64
+msgid "date joined"
+msgstr "Дата регистрации"
+
+#: authapp/models.py:73
+msgid "user"
+msgstr "Пользователь"
+
+#: authapp/models.py:74
+msgid "users"
+msgstr "Пользователи"
+
+#: authapp/views.py:47
+msgid "See you later!"
+msgstr ""
+
+#: mainapp/admin/lessons.py:23
+#, python-format
+msgid "Delete lessons, %(count)d"
+msgstr ""
+
+#: mainapp/admin/lessons.py:28
+msgid "Mark deleted"
+msgstr ""
+
+#: mainapp/admin/lessons.py:30 mainapp/models/course_feedback.py:13
+#: mainapp/models/courses.py:41
+msgid "Course"
+msgstr "Курсы"
+
+#: mainapp/forms.py:31
+msgid "Enter your message"
+msgstr ""
+
+#: mainapp/forms.py:32
+msgid "Message"
+msgstr ""
+
+#: mainapp/models/course_feedback.py:16
+msgid "User"
+msgstr ""
+
+#: mainapp/models/course_feedback.py:19
+msgid "No feedback"
+msgstr ""
+
+#: mainapp/models/course_feedback.py:19
+msgid "Feedback"
+msgstr ""
+
+#: mainapp/models/course_feedback.py:22
+msgid "Rating"
+msgstr ""
+
+#: mainapp/models/course_feedback.py:24
+msgid "Created"
+msgstr ""
+
+#: mainapp/models/course_teachers.py:33
+msgid "Teacher"
+msgstr ""
+
+#: mainapp/models/course_teachers.py:34
+msgid "Teachers"
+msgstr ""
+
+#: mainapp/models/courses.py:42
+#msgid "Courses"
+#msgstr "Курсы"
+
+#: mainapp/models/lesson.py:42
+msgid "Lesson"
+msgstr ""
+
+#: mainapp/models/lesson.py:43
+msgid "Lessons"
+msgstr ""
+
+#: mainapp/models/news.py:38 mainapp/models/news.py:39
+msgid "News"
+msgstr "Новости"
+
+#: mainapp/views.py:152
+msgid "Message sended"
+msgstr ""
+
+#: mainapp/views.py:164
+msgid "You can send only one message per 5 minutes"
+msgstr ""
+
+#: templates/admin/base_site.html:8
+msgid "Django site admin"
+msgstr ""
+
+#: templates/include/main_menu.html:17
+#msgid "News"
+#msgstr "Новости"
+
+#: templates/include/main_menu.html:22
+msgid "Courses"
+msgstr "Курсы"
+
+#: templates/include/main_menu.html:30
+msgid "Profile"
+msgstr "Профиль"
+
+#: templates/include/main_menu.html:35
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: templates/include/main_menu.html:38
+#msgid "My courses""
+#msgstr "Мои курсы"
+
+#: templates/include/main_menu.html:42
+msgid "Moderation"
+msgstr "Модерация"
+
+#: templates/include/main_menu.html:47
+msgid "Admin's"
+msgstr "Административный раздел"
+
+#: templates/include/main_menu.html:51
+msgid "Log"
+msgstr "Лог"
+
+#: templates/include/main_menu.html:56
+#msgid "Exit"
+#msgstr "Выход"
+
+#: templates/include/main_menu.html:63
+#msgid "Exit"
+#msgstr "Вход"
+
+#: templates/include/main_menu.html:70 templates/include/main_menu.html:76
+msgid "Contacts"
+msgstr "Контакты"

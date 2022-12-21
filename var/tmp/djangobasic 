@@ -1,0 +1,19 @@
+server {
+	listen 80;
+	server_name 188.93.210.17;
+
+	location = /favicon.ico { access_log off; log_not_found off; }
+
+	location /static/ {
+		root /home/django/BraniacLMS;
+	} 
+	
+	location /media/ {
+		root /home/django/BraniacLMS;
+	}
+
+	location / {
+		include proxy_params;
+		proxy_pass http://unix:/home/django/BraniacLMS/braniaclms.sock;
+	}
+}

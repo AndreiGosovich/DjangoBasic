@@ -1,0 +1,13 @@
+[Unit]
+Description=Celery daemon for BraniacLMS
+
+After=network.target
+[Service]
+User=django
+Group=django
+WorkingDirectory=/home/django/BraniacLMS
+Environment='DJANGO_SETTINGS_MODULE=config.conf_prod''DJANGO_SECRET_KEY=_h94+q_xj7dshrj58iyznl^ighi=qlffj!d2jncd87nzkucke1'
+ExecStart=/home/django/venv/bin/celery -A config worker -l INFO
+
+[Install]
+WantedBy=multi-user.target
